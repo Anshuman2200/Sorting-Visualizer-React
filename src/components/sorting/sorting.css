@@ -1,0 +1,70 @@
+.arraycontainer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bar {
+  background-color: cadetblue;
+  display: inline-block;
+  width: 2px;
+  margin-right: 2px;
+}
+
+.bar-animation {
+  animation-name: completed;
+  animation-duration: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes completed {
+  from {
+    background-color: rgb(75, 252, 21);
+  }
+  to {
+    background-color: rgba(75, 252, 21, 0.2);
+  }
+}
+
+.navbar {
+  font-family: Roboto Slab, serif;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.link-enabled:hover {
+  color: white;
+  background-color: 	#ff69b4;
+  border-radius: 5px;
+  padding: 15px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.link-enabled {
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  text-decoration: none;
+  background-color: 	#4b0082;
+  margin: auto;
+}
+
+.link-disabled {
+  color: white;
+  background-color: rgb(192, 192, 192);
+  pointer-events: none;
+  text-decoration: line-through;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.select-buttons {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  text-align: center;
+  font-family: Roboto Slab, serif;
+}
